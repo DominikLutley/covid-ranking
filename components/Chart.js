@@ -5,8 +5,8 @@ const Chart = ({ data }) => {
   const topCases = data[0].displayValue;
   return (
     <div className={styles.container}>
-      {data.map((item) => (
-        <ChartBar item={item} topCases={topCases} />
+      {data.map((item, key) => (
+        <ChartBar item={item} topCases={topCases} key={key} />
       ))}
     </div>
   );
