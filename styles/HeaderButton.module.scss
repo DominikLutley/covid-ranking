@@ -1,0 +1,31 @@
+@mixin btn-style {
+  background-color: var(--clr-primary);
+  border: none;
+  color: var(--clr-white);
+  font-size: 1.125em;
+  font-weight: 600;
+  border-radius: 0.5em 0.5em 0 0;
+  margin: 1em 0.25em;
+  padding: 0.5em 1em;
+  transition: all 0.1s ease-in;
+}
+
+@mixin btn-active {
+  background-color: var(--clr-white);
+  outline: 2px solid var(--clr-primary);
+  color: var(--clr-primary);
+}
+
+.btn {
+  @include btn-style();
+}
+
+.btn:hover,
+.btn:focus {
+  @include btn-active();
+}
+
+.btnActive {
+  @include btn-style();
+  @include btn-active();
+}
