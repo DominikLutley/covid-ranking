@@ -52,9 +52,7 @@ export async function getStaticProps(context) {
   );
 
   let data = response.data
-    .filter(
-      (item) => item.today.confirmed && item.today.deaths && item.population
-    )
+    .filter((item) => item.today && item.population)
     .map((item) => {
       return {
         country: item.name,
