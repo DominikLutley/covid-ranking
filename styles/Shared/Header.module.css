@@ -1,0 +1,32 @@
+.title {
+  margin: 0;
+  line-height: 2.75;
+  font-size: 1.5rem;
+  margin-right: 0.5em;
+  font-weight: 400;
+  color: var(--clr-white);
+  font-family: var(--ff-serif);
+  cursor: pointer;
+}
+
+.titleBar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menuIcon {
+  color: white;
+  margin-left: 1.5em;
+  height: 1.75rem;
+  cursor: pointer;
+}
+
+.container {
+  color: var(--clr--white);
+  background-color: var(--clr-primary);
+  position: fixed;
+  width: 100%;
+  box-shadow: var(--box-shadow);
+  z-index: 99;
+}

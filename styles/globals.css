@@ -1,10 +1,15 @@
-@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;0,700;0,900;1,300;1,400;1,600;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@300;400;600;900&display=swap");
 
 :root {
-  --clr-white: #fff;
-  --clr-primary: #1b4079;
-  --clr-black: #191923;
+  --clr-white: #fafdff;
+  --clr-lightgrey: #d8dbdd;
+  --clr-primary: #2183d4;
+  --clr-black: #28292a;
+  --clr-secondary: #ffa630;
+  --box-shadow: 0 3px 15px rgba(0, 0, 0, 0.2);
   --ff-sans: "Source Sans Pro", "Segoe UI", Roboto, Oxygen, Ubuntu, sans-serif;
+  --ff-serif: "Source Serif Pro", Garamond, "Times New Roman", serif;
 }
 
 html,

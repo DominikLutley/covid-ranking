@@ -1,0 +1,12 @@
+.container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  background-color: var(--clr-primary);
+  color: var(--clr-white);
+  margin: 0;
+  position: fixed;
+  bottom: 0;
+  line-height: 1.5;
+  box-shadow: var(--box-shadow);
+}

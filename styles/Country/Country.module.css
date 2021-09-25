@@ -1,0 +1,21 @@
+.container {
+  color: var(--clr-black);
+  padding: 0 1em;
+  width: 100%;
+}
+
+.title {
+  font-weight: 600;
+  text-align: center;
+}
+
+.h2 {
+  font-weight: 600;
+  margin-left: 1em;
+}
+
+.statsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}

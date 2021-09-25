@@ -1,0 +1,16 @@
+.container {
+  background-color: var(--clr-white);
+  color: var(--clr-black);
+  padding: 0.5em;
+  opacity: 0.9;
+}
+
+.date {
+  margin: 0;
+  font-weight: 700;
+}
+
+.value {
+  margin: 0;
+  font-weight: 400;
+}

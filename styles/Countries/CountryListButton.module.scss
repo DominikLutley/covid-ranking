@@ -2,12 +2,12 @@
   background-color: var(--clr-primary);
   border: none;
   color: var(--clr-white);
-  font-size: 1.125em;
+  font-size: 1em;
   font-weight: 600;
   border-radius: 0.5em 0.5em 0 0;
   margin: 1em 0.25em;
-  padding: 0.5em 1em;
-  transition: all 0.1s ease-in;
+  padding: 0.5em;
+  transition: all 0.08s ease-in;
 }
 
 @mixin btn-active {
@@ -18,11 +18,12 @@
 
 .btn {
   @include btn-style();
+  cursor: pointer;
 }
 
 .btn:hover,
 .btn:focus {
-  @include btn-active();
+  filter: brightness(1.175);
 }
 
 .btnActive {
