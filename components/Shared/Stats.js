@@ -4,8 +4,8 @@ import StatsCard from "./StatsCard";
 const Stats = ({ data }) => {
   return (
     <div className={styles.container}>
-      {data.map((item) => (
-        <StatsCard title={item.title} value={item.value} />
+      {data.map((item, key) => (
+        <StatsCard key={key} title={item.title} value={item.value} />
       ))}
     </div>
   );
