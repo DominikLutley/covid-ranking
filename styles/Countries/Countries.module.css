@@ -3,7 +3,8 @@
   width: 100%;
 }
 
-.main {
-  width: 100%;
-  min-height: 100%;
+.tip {
+  font-style: italic;
+  margin: 0;
+  text-align: center;
 }

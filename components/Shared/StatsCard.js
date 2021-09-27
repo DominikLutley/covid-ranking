@@ -1,6 +1,6 @@
-import styles from "../../styles/Country/CountryStatsCard.module.css";
+import styles from "../../styles/Shared/StatsCard.module.css";
 
-const CountryStatsCard = ({ title, value }) => {
+const StatsCard = ({ title, value }) => {
   return (
     <div className={styles.container}>
       <div className={styles.title}>{title}</div>
@@ -9,4 +9,4 @@ const CountryStatsCard = ({ title, value }) => {
   );
 };
 
-export default CountryStatsCard;
+export default StatsCard;

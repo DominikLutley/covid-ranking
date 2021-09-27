@@ -35,6 +35,7 @@ export default function Countries({ data }) {
 
   return (
     <div className={styles.container}>
+      <p className={styles.tip}>Tip: Click on one of the bars in the chart.</p>
       <CountryListButtonGroup
         changeActiveTab={changeActiveTab}
         activeTab={activeTab}

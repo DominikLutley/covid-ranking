@@ -42,3 +42,13 @@
   height: 1.25em;
   margin-right: 0.5em;
 }
+
+@media screen and (min-width: 750px) {
+  .nav {
+    display: none;
+  }
+
+  .navHidden {
+    display: none;
+  }
+}

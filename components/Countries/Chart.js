@@ -39,6 +39,7 @@ const Chart = ({ data, activeTab }) => {
             angle="-45"
             textAnchor="end"
             minTickGap={-10000}
+            height={60}
           />
           <YAxis
             domain={[0, topCases * 1.1]}
@@ -55,7 +56,12 @@ const Chart = ({ data, activeTab }) => {
           />
           <Tooltip content={<CountryTooltip activeTab={activeTab} />} />
           <Legend />
-          <Bar dataKey="displayValue" fill="var(--clr-primary)" barSize={50} />
+          <Bar
+            dataKey="displayValue"
+            fill="var(--clr-primary)"
+            barSize={50}
+            legendType="none"
+          />
         </BarChart>
       </ResponsiveContainer>
     </div>

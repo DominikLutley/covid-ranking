@@ -13,9 +13,3 @@
   font-weight: 600;
   margin-left: 1em;
 }
-
-.statsContainer {
-  display: flex;
-  flex-wrap: wrap;
-  width: 100%;
-}
